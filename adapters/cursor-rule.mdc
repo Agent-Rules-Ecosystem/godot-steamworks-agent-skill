@@ -1,0 +1,7 @@
+---
+description: GodotSteam steamInitEx(), Steam.run_callbacks(), Achievements/Stats, Steam Cloud, Lobbies and release build hygiene. ($steam)
+globs: ["**/steam/**/*.gd", "**/*steam*.gd"]
+alwaysApply: false
+---
+
+Read and follow `.skill/godot-steamworks-agent-skill/AGENTS.md` and `.skill/godot-steamworks-agent-skill/SKILL.md`.

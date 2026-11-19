@@ -1,9 +1,9 @@
-# ⚡ Comandos de Godot Steamworks Agent Skill (`godot-steamworks-agent-skill`)
+# Comandos — Godot 4 Steamworks (GodotSteam) Agent Skill
 
 | Comando | Acción | Descripción |
 |---|---|---|
-| `$steam` | Bootstrap | Inicializa la integración de Steamworks SDK en Godot. |
-| `$steam:audit` | Auditoría | Audita logros, estadísticas, Cloud Saves y Rich Presence. |
-| `$steam:achievements` | Integración | Configura llamados a la API de logros de Steam. |
-| `$learnskill godot-steamworks-agent-skill [propuesta]` | Aprendizaje | Registrar propuesta de mejora específica para `godot-steamworks-agent-skill` en `overview/learning.md` |
-| `$revlearnskill` | Revisión | Clasificar e inspeccionar propuestas de aprendizaje acumuladas en `overview/learning.md` |
+| `$steam` | Bootstrap | Activa reglas y patrones de GodotSteam. |
+| `$steam:audit` | Auditoría | Verifica `steamInitEx()`, `run_callbacks()`, `storeStats()`, fallback sin Steam y exclusión de `steam_appid.txt`. |
+| `$steam:lobbies` | Multiplayer | Guía Lobbies, P2P y SteamNetworkingSockets. |
+
+> Los comandos de gobernanza (`$learnskill`, `$revlearnskill`, `$boot`, `$close`) pertenecen al core `*-agent-rules` del proyecto.
